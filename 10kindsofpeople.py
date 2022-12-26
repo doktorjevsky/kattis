@@ -7,8 +7,7 @@ and each region of zeroes with a unique odd number. Then, if start and end are t
 even number, "decimal" may travel from start to end, and if odd - "binary", else "neither".
 
 A region will be filled only if the start position is 1 or 0. This results in an efficient
-O(n*R) solution in n number of regions of size R, or equivalently O(N) where N is the number
-of cells in the grid. Each region is colored at most 1 time.
+O(N) solution, where N is the number of cells in the grid.
 """
 
 def fill(grid, start, clr):
